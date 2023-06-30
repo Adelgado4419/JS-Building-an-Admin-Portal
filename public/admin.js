@@ -1,7 +1,7 @@
 async function saveShinobi() {
     console.log('BUTTON');
     let inputValue = document.getElementById('shinobi-input').value
-    let response = await fetch('http://localhost:9001/updateBook', {
+    let response = await fetch('http://localhost:3001/updateBook', {
         method: 'PATCH',
         headers: {
             "Content-Type" : 'application/json'
@@ -17,7 +17,7 @@ async function saveShinobi() {
 async function saveTess() {
     console.log('BUTTON');
     let inputValue = document.getElementById('tess-input').value
-    let response = await fetch('http://localhost:9001/updateBook', {
+    let response = await fetch('http://localhost:3001/updateBook', {
         method: 'PATCH',
         headers: {
             "Content-Type" : 'application/json'
@@ -33,7 +33,7 @@ async function saveTess() {
 async function saveArathrae() {
     console.log('BUTTON');
     let inputValue = document.getElementById('arathrae-input').value
-    let response = await fetch('http://localhost:9001/updateBook', {
+    let response = await fetch('http://localhost:3001/updateBook', {
         method: 'PATCH',
         headers: {
             "Content-Type" : 'application/json'
@@ -49,7 +49,7 @@ async function saveArathrae() {
 async function saveWarp() {
     console.log('BUTTON');
     let inputValue = document.getElementById('warp-input').value
-    let response = await fetch('http://localhost:9001/updateBook', {
+    let response = await fetch('http://localhost:3001/updateBook', {
         method: 'PATCH',
         headers: {
             "Content-Type" : 'application/json'
